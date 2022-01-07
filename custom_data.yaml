@@ -1,0 +1,12 @@
+
+train: ../fall_dataset/images/train  # train images (relative to 'path') 128 images
+val: ../fall_dataset/images/val  # val images (relative to 'path') 128 images
+
+
+# Classes
+nc: 3  # number of classes
+names: ['fall detected','walking','sitting']  # class names
+
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
